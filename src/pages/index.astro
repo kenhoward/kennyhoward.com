@@ -32,13 +32,15 @@ const projects = (await getCollection('work'))
 				<Hero
 					title="Hey There 👋🏻"
 					subTitle="I'm Kenny Howard"
-					tagline="I am a Passionate JavaScript developer who wants to create fun, and exciting technology"
+					tagline="I am a Passionate JavaScript developer who loves to create fun, and exciting technology"
 					align="start"
 				>
 					<div class="roles">
 						<Pill><Icon icon="code" size="1.33em" /> Developer</Pill>
-						<Pill><Icon icon="microphone-stage" size="1.33em" /> Speaker</Pill>
-						<Pill><Icon icon="pencil-line" size="1.33em" /> Writer</Pill>
+						<Pill><Icon icon="light-bulb" size="1.33em" /> Problem Solver</Pill>
+						<Pill><Icon icon="sparkle" size="1.33em" /> Creative Thinker</Pill>
+						<Pill><Icon icon="circuitry" size="1.33em" /> AI Enthusiast</Pill>
+						<Pill><Icon icon="learner" size="1.33em" /> Lifelong Learner</Pill>
 					</div>
 				</Hero>
 
@@ -139,6 +141,7 @@ const projects = (await getCollection('work'))
 			margin-top: 0.5rem;
 			display: flex;
 			gap: 0.5rem;
+			flex-wrap: wrap;
 		}
 
 		.hero img {
