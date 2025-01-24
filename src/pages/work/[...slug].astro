@@ -35,8 +35,10 @@ const { Content } = await render(entry);
 				<div class="wrapper stack gap-2">
 					<a class="back-link" href="/work/"><Icon icon="arrow-left" /> Work</a>
 					<Hero title={entry.data.title} align="start">
+						<!-- TODO: clean up this approach  -->
+						<!-- <p>Technologies Used</p> -->
 						<div class="details">
-							<div class="tags">
+							<div class="technologies">
 								{entry.data.tags.map((t) => <Pill>{t}</Pill>)}
 							</div>
 							<p class="description">{entry.data.description}</p>
@@ -76,7 +78,7 @@ const { Content } = await render(entry);
 		align-items: center;
 	}
 
-	.tags {
+	.technologies {
 		display: flex;
 		gap: 0.5rem;
 	}

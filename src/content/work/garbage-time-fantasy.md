@@ -1,15 +1,15 @@
 ---
-title: Markdown Mystery Tour
-showcasePriority: 55
+title: Garbage Time Fantasy
+showcasePriority: 2
 publishDate: 2024-03-02 00:00:00
-img: /assets/stock-1.jpg
+img: https://res.cloudinary.com/dqlpq0s6t/image/upload/v1709329795/personal_website_v1/portfolio/all_bets_gfsdzt.jpg
 img_alt: Iridescent ripples of a bright blue and pink liquid
 description: |
   We designed a whodunnit-style game to introduce Markdown formatting. Suspense — suspicion — syntax!
 tags:
-  - Design
-  - Dev
-  - User Testing
+  - React
+  - Context
+  - Firebase
 ---
 
 ## Level-two heading
@@ -25,6 +25,8 @@ Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum s
 Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra. Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl pretium fusce.
 
 ### Level-three heading
+
+![image](https://res.cloudinary.com/dqlpq0s6t/image/upload/v1709329795/personal_website_v1/portfolio/create_bet_option_heoveu.jpg)
 
 Sed pulvinar porttitor mi in ultricies. Etiam non dolor gravida eros pulvinar pellentesque et dictum ex. Proin eu ornare ligula, sed condimentum dui. Vivamus tincidunt tellus mi, sed semper ipsum pharetra a. Suspendisse sollicitudin at sapien nec volutpat. Etiam justo urna, laoreet ac lacus sed, ultricies facilisis dolor. Integer posuere, metus vel viverra gravida, risus elit ornare magna, id feugiat erat risus ullamcorper libero. Proin vitae diam auctor, laoreet lorem vitae, varius tellus.
 

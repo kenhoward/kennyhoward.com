@@ -1,6 +1,6 @@
 ---
 title: Another One
-showcasePriority: 5
+showcasePriority: 44
 publishDate: 2017-01-04 00:00:00
 img: /assets/stock-3.jpg
 img_alt: Pearls of silky soft white cotton, bubble up under vibrant lighting

@@ -18,7 +18,11 @@ import Skills from "../components/Skills.astro";
 
 // Content Fetching: List four most recent work projects
 const projects = (await getCollection("work"))
-	.sort((a, b) => a.data.showcasePriority.valueOf() - b.data.showcasePriority.valueOf())
+	.sort(
+		(a, b) =>
+			a.data.showcasePriority.valueOf() -
+			b.data.showcasePriority.valueOf(),
+	)
 	.slice(0, 4);
 
 // Full Astro Component Syntax:
@@ -57,7 +61,7 @@ const projects = (await getCollection("work"))
 					alt="A black and white image of Kenny Howard smiling"
 					width="480"
 					height="620"
-					src="https://res.cloudinary.com/dqlpq0s6t/image/upload/v1737483162/me_xsictt.jpg"
+					src="https://res.cloudinary.com/dqlpq0s6t/image/upload/v1737483162/personal_website_MK2/me_xsictt.jpg"
 				/>
 			</header>
 

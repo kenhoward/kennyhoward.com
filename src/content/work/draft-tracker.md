@@ -1,15 +1,15 @@
 ---
-title: Markdown Mystery Tour
-showcasePriority: 55
+title: Auction Draft Tracker
+showcasePriority: 3
 publishDate: 2024-03-02 00:00:00
-img: /assets/stock-1.jpg
+img: https://res.cloudinary.com/dqlpq0s6t/image/upload/v1709329802/personal_website_v1/portfolio/draft_tracker_1_xsecey.jpg
 img_alt: Iridescent ripples of a bright blue and pink liquid
 description: |
   We designed a whodunnit-style game to introduce Markdown formatting. Suspense — suspicion — syntax!
 tags:
-  - Design
-  - Dev
-  - User Testing
+  - Angular
+  - CSS3
+  - Boilerplate
 ---
 
 ## Level-two heading
@@ -21,6 +21,8 @@ Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes peopl
 Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel quam elementum pulvinar etiam non.
 
 ### Level-three heading
+
+![image](https://res.cloudinary.com/dqlpq0s6t/image/upload/v1709329796/personal_website_v1/portfolio/draft_tracker_2_crc1co.jpg)
 
 Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra. Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl pretium fusce.
 
