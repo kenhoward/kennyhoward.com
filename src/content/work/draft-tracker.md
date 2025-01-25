@@ -1,6 +1,6 @@
 ---
 title: Auction Draft Tracker
-showcasePriority: 4
+showcasePriority: 5
 publishDate: 2024-03-02 00:00:00
 img: https://res.cloudinary.com/dqlpq0s6t/image/upload/v1709329802/personal_website_v1/portfolio/draft_tracker_1_xsecey.jpg
 img_alt: Iridescent ripples of a bright blue and pink liquid

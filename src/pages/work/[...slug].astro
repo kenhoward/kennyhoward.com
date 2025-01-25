@@ -36,7 +36,7 @@ const { Content } = await render(entry);
 					<a class="back-link" href="/work/"><Icon icon="arrow-left" /> Work</a>
 					<Hero title={entry.data.title} align="start">
 						<!-- TODO: clean up this approach  -->
-						<!-- <p>Technologies Used</p> -->
+						<div>Technologies Used</div>
 						<div class="details">
 							<div class="technologies">
 								{entry.data.tags.map((t) => <Pill>{t}</Pill>)}
