@@ -1,26 +1,30 @@
 ---
-title: Markdown Mystery Tour
-showcasePriority: 55
+title: Beyond, Inc. Work Contributions
+showcasePriority: 3
 publishDate: 2024-03-02 00:00:00
-img: /assets/stock-1.jpg
+img: https://res.cloudinary.com/dqlpq0s6t/image/upload/v1737762394/personal_website_MK2/work/byon_work_homepage_t62nmo.png
 img_alt: Iridescent ripples of a bright blue and pink liquid
 description: |
   We designed a whodunnit-style game to introduce Markdown formatting. Suspense — suspicion — syntax!
 tags:
-  - Design
-  - Dev
-  - User Testing
+  - HTML5
+  - CSS3
+  - Boilerplate
 ---
 
 ## Level-two heading
 
 > Tell me and I forget. Teach me and I remember. Involve me and I learn.
 
+![image](https://res.cloudinary.com/dqlpq0s6t/image/upload/v1737762392/personal_website_MK2/work/byon_work_everything_seen_iz_mine_b0qukq.png)
+
 Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
 
 Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel quam elementum pulvinar etiam non.
 
 ### Level-three heading
+
+![image](https://res.cloudinary.com/dqlpq0s6t/image/upload/v1737762398/personal_website_MK2/work/byon_ostk_shopify_ihdh42.png)
 
 Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra. Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl pretium fusce.
 

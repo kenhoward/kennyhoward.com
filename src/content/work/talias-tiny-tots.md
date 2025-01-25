@@ -1,6 +1,6 @@
 ---
 title: Talia's Tiny Tots
-showcasePriority: 7
+showcasePriority: 9
 publishDate: 2024-03-02 00:00:00
 img: https://res.cloudinary.com/dqlpq0s6t/image/upload/v1737760196/personal_website_MK2/talias_tiny_tots_website_homepage_wjtjyj_yd3xzr.png
 img_alt: Iridescent ripples of a bright blue and pink liquid

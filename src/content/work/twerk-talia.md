@@ -1,6 +1,6 @@
 ---
 title: Twerk Talia - Dance Fitness
-showcasePriority: 4
+showcasePriority: 5
 publishDate: 2024-03-02 00:00:00
 img: https://res.cloudinary.com/dqlpq0s6t/image/upload/v1737758238/personal_website_MK2/twerktalia.com_website_mw2v5x.png
 img_alt: Iridescent ripples of a bright blue and pink liquid
