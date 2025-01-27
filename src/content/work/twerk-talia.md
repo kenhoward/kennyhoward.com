@@ -10,6 +10,8 @@ tags:
   - Html5
   - CSS3
   - Boilerplate
+websiteUrl: https://twerktalia.com/
+githubUrl: https://github.com/lost-boys-technologies/twerk-talia-temp
 ---
 
 ## Level-two heading

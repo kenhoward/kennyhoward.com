@@ -1,6 +1,6 @@
 ---
 title: Auction Draft Tracker
-showcasePriority: 5
+showcasePriority: 6
 publishDate: 2024-03-02 00:00:00
 img: https://res.cloudinary.com/dqlpq0s6t/image/upload/v1709329802/personal_website_v1/portfolio/draft_tracker_1_xsecey.jpg
 img_alt: Iridescent ripples of a bright blue and pink liquid
@@ -10,6 +10,7 @@ tags:
   - Angular
   - CSS3
   - Boilerplate
+githubUrl: https://github.com/kenhoward/benched-sports-dos
 ---
 
 ## Level-two heading

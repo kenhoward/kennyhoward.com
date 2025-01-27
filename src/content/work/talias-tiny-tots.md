@@ -10,6 +10,8 @@ tags:
   - Html5
   - CSS3
   - Boilerplate
+websiteUrl: https://taliastinytots.com/
+githubUrl: https://github.com/lost-boys-technologies/talias-tiny-tots
 ---
 
 ## Level-two heading

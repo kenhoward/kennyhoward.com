@@ -3,13 +3,15 @@ title: Mood Map
 showcasePriority: 1
 publishDate: 2025-01-23 00:00:00
 img: https://res.cloudinary.com/dqlpq0s6t/image/upload/v1737758433/personal_website_MK2/mood_map_website_homepage.png
-img_alt: Iridescent ripples of a bright blue and pink liquid
+img_alt: A screenshot of the landing page of Mood Map
 description: |
   We designed a whodunnit-style game to introduce Markdown formatting. Suspense — suspicion — syntax!
 tags:
   - NextJS
   - Tailwind
   - Firebase
+websiteUrl: https://mood-map-xi.vercel.app/
+githubUrl: https://github.com/kenhoward/mood-map
 ---
 
 ## Level-two heading

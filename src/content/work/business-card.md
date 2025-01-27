@@ -1,6 +1,6 @@
 ---
 title: Business Card 
-showcasePriority: 6
+showcasePriority: 5
 publishDate: 2024-03-02 00:00:00
 img: https://res.cloudinary.com/dqlpq0s6t/image/upload/v1737761316/personal_website_MK2/business_card_website_hdgcwq.png
 img_alt: Iridescent ripples of a bright blue and pink liquid
@@ -10,6 +10,8 @@ tags:
   - HTML5
   - CSS3
   - Boilerplate
+websiteUrl: https://www.kennyhoward.dev/
+githubUrl: https://github.com/kenhoward/codename-lean
 ---
 
 ## Level-two heading

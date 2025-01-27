@@ -3,6 +3,7 @@ import { type CollectionEntry, getCollection } from 'astro:content';
 
 import BaseLayout from '../../layouts/BaseLayout.astro';
 
+import CallToAction from '../../components/CallToAction.astro';
 import ContactCTA from '../../components/ContactCTA.astro';
 import Hero from '../../components/Hero.astro';
 import Icon from '../../components/Icon.astro';
@@ -35,13 +36,26 @@ const { Content } = await render(entry);
 				<div class="wrapper stack gap-2">
 					<a class="back-link" href="/work/"><Icon icon="arrow-left" /> Work</a>
 					<Hero title={entry.data.title} align="start">
-						<!-- TODO: clean up this approach  -->
 						<div>Technologies Used</div>
 						<div class="details">
 							<div class="technologies">
 								{entry.data.tags.map((t) => <Pill>{t}</Pill>)}
 							</div>
 							<p class="description">{entry.data.description}</p>
+						</div>
+						<div class="button">
+							{entry.data.websiteUrl && (
+								<CallToAction href={entry.data.websiteUrl}>
+									Website
+									<Icon icon="browser" />
+								</CallToAction>
+							)}
+							{entry.data.githubUrl && (
+								<CallToAction href={entry.data.githubUrl}>
+									GitHub
+									<Icon icon="github-logo" />
+								</CallToAction>
+							)}
 						</div>
 					</Hero>
 				</div>
@@ -86,6 +100,16 @@ const { Content } = await render(entry);
 	.description {
 		font-size: var(--text-lg);
 		max-width: 54ch;
+	}
+
+	.button {
+		display: flex;
+		justify-content: center;
+		margin: 2em 0 0;
+		
+		a {
+			margin: 0 0.5em;
+		}
 	}
 
 	.content {
