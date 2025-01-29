@@ -1,24 +1,24 @@
 ---
-import { type CollectionEntry, getCollection } from 'astro:content';
+import { type CollectionEntry, getCollection } from "astro:content";
 
-import BaseLayout from '../../layouts/BaseLayout.astro';
+import BaseLayout from "../../layouts/BaseLayout.astro";
 
-import CallToAction from '../../components/CallToAction.astro';
-import ContactCTA from '../../components/ContactCTA.astro';
-import Hero from '../../components/Hero.astro';
-import Icon from '../../components/Icon.astro';
-import Pill from '../../components/Pill.astro';
-import { render } from 'astro:content';
+import CallToAction from "../../components/CallToAction.astro";
+import ContactCTA from "../../components/ContactCTA.astro";
+import Hero from "../../components/Hero.astro";
+import Icon from "../../components/Icon.astro";
+import Pill from "../../components/Pill.astro";
+import { render } from "astro:content";
 
 interface Props {
-	entry: CollectionEntry<'work'>;
+	entry: CollectionEntry<"work">;
 }
 
 // This is a dynamic route that generates a page for every Markdown file in src/content/
 // Read more about dynamic routes and this `getStaticPaths` function in the Astro docs:
 // https://docs.astro.build/en/core-concepts/routing/#dynamic-routes
 export async function getStaticPaths() {
-	const work = await getCollection('work');
+	const work = await getCollection("work");
 	return work.map((entry) => ({
 		params: { slug: entry.id },
 		props: { entry },
@@ -34,7 +34,9 @@ const { Content } = await render(entry);
 		<div class="stack gap-15">
 			<header>
 				<div class="wrapper stack gap-2">
-					<a class="back-link" href="/work/"><Icon icon="arrow-left" /> Work</a>
+					<a class="back-link" href="/work/"
+						><Icon icon="arrow-left" /> Work</a
+					>
 					<Hero title={entry.data.title} align="start">
 						<div class="technologies-title">Technologies Used</div>
 						<div class="details">
@@ -44,25 +46,36 @@ const { Content } = await render(entry);
 							<p class="description">{entry.data.description}</p>
 						</div>
 						<div class="button">
-							{entry.data.websiteUrl && (
-								<CallToAction href={entry.data.websiteUrl}>
-									Website
-									<Icon icon="browser" />
-								</CallToAction>
-							)}
-							{entry.data.githubUrl && (
-								<CallToAction href={entry.data.githubUrl}>
-									GitHub
-									<Icon icon="github-logo" />
-								</CallToAction>
-							)}
+							{
+								entry.data.websiteUrl && (
+									<CallToAction href={entry.data.websiteUrl}>
+										Website
+										<Icon icon="browser" />
+									</CallToAction>
+								)
+							}
+							{
+								entry.data.githubUrl && (
+									<CallToAction href={entry.data.githubUrl}>
+										GitHub
+										<Icon icon="github-logo" />
+									</CallToAction>
+								)
+							}
 						</div>
 					</Hero>
 				</div>
 			</header>
 			<main class="wrapper">
 				<div class="stack gap-10 content">
-					{entry.data.img && <img src={entry.data.img} alt={entry.data.img_alt || ''} />}
+					{
+						entry.data.img && (
+							<img
+								src={entry.data.img}
+								alt={entry.data.img_alt || ""}
+							/>
+						)
+					}
 					<div class="content">
 						<Content />
 					</div>
@@ -93,7 +106,24 @@ const { Content } = await render(entry);
 	}
 
 	.technologies-title {
-		color: var(--accent-dark);
+		font-weight: bold;
+		background: var(--gradient-vibrant);
+		background-size: auto auto;
+		background-clip: border-box;
+		background-size: 200% auto;
+		color: #fff;
+		background-clip: text;
+		text-fill-color: transparent;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		animation: textclip 2s linear infinite;
+		display: inline-block;
+	}
+
+	@keyframes textclip {
+		to {
+			background-position: 200% center;
+		}
 	}
 
 	.technologies {
@@ -112,7 +142,7 @@ const { Content } = await render(entry);
 		display: flex;
 		justify-content: center;
 		margin: 2em 0 0;
-		
+
 		a {
 			margin: 0 0.5em;
 		}
