@@ -24,8 +24,6 @@ websiteUrl: https://www.bedbathandbeyond.com/
 
 ## A Decade of Innovation at Beyond, Inc.
 
-> “The best way to predict the future is to create it.” – Alan Kay
-
 I have been a part of **Beyond, Inc.** (formerly **Overstock.com**) for nearly a decade, playing a pivotal role in maintaining, optimizing, and modernizing the front-end architecture of one of the leading e-commerce platforms in the industry. Over the years, I have had the privilege of working on multiple key teams, including **Homepage, Header & Footer, and Search & Navigation**, each contributing significantly to my technical expertise.
 
 Beyond, Inc. has always been a company that embraces **cutting-edge technology**, and I take immense pride in contributing to that culture of continuous innovation. From transitioning away from jQuery in 2016 to **migrating Overstock.com to Shopify** in 2023, my time here has been a journey of learning, problem-solving, and pushing boundaries.
@@ -46,15 +44,19 @@ Above is a **screenshot of a search page** on our website that includes the **he
 - **Performance & Observability:** Managed sitewide **Web Vitals optimizations**, application **stress testing**, and implemented **SLOs (Service Level Objectives)** for **Header, Footer, and Search** as a whole.
 - **Search App Migration:** Led the transition of our Search application from a **legacy framework to Next.js**, modernizing its architecture for improved performance, scalability, and developer experience.
 
-### **2. Transitioning Overstock.com to Shopify**
-In June 2023, Beyond, Inc. acquired the **Bed Bath & Beyond (BBBY)** brand, merging it with our existing **Overstock.com** infrastructure. This was a monumental shift, and part of the transition involved **migrating Overstock.com to Shopify**.
+### **2. Shopify Migration & Contributions to Backyard.com**  
+In June 2023, Beyond, Inc. acquired the **Bed Bath & Beyond (BBBY)** brand, merging it with our existing **Overstock.com** infrastructure. As part of this transition, I played a key role in the **migration of Overstock.com to Shopify**, ensuring a smooth transition while maintaining performance and functionality.
 
 ![Shopify Migration](https://res.cloudinary.com/dqlpq0s6t/image/upload/v1737762398/personal_website_MK2/work/byon_ostk_shopify_ihdh42.png)
 
-During this transition, I was **one of the few front-end engineers** tasked with ensuring a seamless migration. My responsibilities included:
-- **Core Deployment & Fast Follows:** Actively contributing to the main launch, debugging, and refining key UI components.
-- **Close Collaboration with Leadership:** Worked directly with our **Chief Product Officer** to ensure smooth execution.
-- **Shopify Customization & Optimizations:** Adapted our existing architecture to fit Shopify’s ecosystem while maintaining **performance benchmarks**.
+#### **Key Contributions:**  
+- **Core Deployment & Fast Follows:** Assisted with the initial Shopify launch, debugging critical UI components and implementing quick iterations.  
+- **Collaboration with Leadership:** Worked closely with the **Chief Product Officer** to ensure the migration aligned with business goals.  
+- **Custom Shopify Enhancements:** Helped adapt our **existing architecture** to Shopify while optimizing for speed and usability.  
+
+Beyond the Shopify migration, I also contributed to **Beyond’s Backyard.com brand**, assisting with **front-end improvements and optimizations** to enhance the user experience.
+
+![Backyard brand work](https://res.cloudinary.com/dqlpq0s6t/image/upload/v1738264221/personal_website_MK2/backyard_website_fwosxk.png)
 
 ### **3. Internal Tools & Platform Enhancements**
 Beyond just customer-facing work, I have also been heavily involved in building and maintaining **internal tools** to support our teams.
@@ -69,7 +71,7 @@ Beyond just customer-facing work, I have also been heavily involved in building 
 Much of my technical expertise stems from my experiences at Beyond, Inc. Some of the **key technologies** I have worked with extensively include:
 
 - **Front-End:** React, Redux, Context API, TypeScript, Next.js, Webpack, Bootstrap, Sass, Tailwind CSS.
-- **Back-End:** Node.js, Express, Fastify, Firebase, Firestore.
+- **Back-End:** Node.js, Express, Fastify, MySQL.
 - **Infrastructure:** Docker, Kubernetes.
 - **Testing & Monitoring:** A/B Testing, Stress Testing, Web Vitals Optimization, SLOs, Observability.
 
@@ -78,4 +80,4 @@ Beyond the tools themselves, I have learned **how to architect scalable applicat
 ---
 
 ## **Looking Ahead**
-Working at Beyond, Inc. has been an **incredible journey**, and I’m grateful for the countless projects, challenges, and innovations I’ve been a part of. As technology continues to evolve, I look forward to contributing to **future advancements** in search, AI-driven e-commerce experiences, and front-end performance optimizations **including things like Google's Conversation Search.**
+Working at Beyond, Inc. has been an **incredible journey**, and I’m grateful for the countless projects, challenges, and innovations I’ve been a part of. As technology continues to evolve, I look forward to contributing to **future advancements** in search, AI-driven e-commerce experiences, and front-end performance optimizations **including things like Google's Conversational Search.**
