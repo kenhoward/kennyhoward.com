@@ -71,7 +71,7 @@ Beyond just customer-facing work, I have also been heavily involved in building 
 Much of my technical expertise stems from my experiences at Beyond, Inc. Some of the **key technologies** I have worked with extensively include:
 
 - **Front-End:** React, Redux, Context API, TypeScript, Next.js, Webpack, Bootstrap, Sass, Tailwind CSS.
-- **Back-End:** Node.js, Express, Fastify, MySQL.
+- **Back-End:** Node.js, Express, Fastify, PostgreSQL.
 - **Infrastructure:** Docker, Kubernetes.
 - **Testing & Monitoring:** A/B Testing, Stress Testing, Web Vitals Optimization, SLOs, Observability.
 
