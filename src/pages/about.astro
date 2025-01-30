@@ -26,45 +26,110 @@ import Hero from "../components/Hero.astro";
 
 			<section>
 				<h2 class="section-title">Background</h2>
-				<div class="content">
+				<div class="content my-background">
 					<p>
-						Lorem ipsum dolor sit amet, <a
-							href="https://astro.build/">Astro</a
-						> makes people happy. Sed do eiusmod tempor incididunt ut
-						labore et dolore magna aliqua. Proin nibh nisl condimentum
-						id venenatis a condimentum vitae. Dapibus ultrices in iaculis
-						nunc. Arcu odio ut sem nulla pharetra diam sit amet. Diam
-						quis enim lobortis scelerisque fermentum dui faucibus in
-						ornare.
+						Before transitioning into software development, I worked
+						in finance — a role that, over time, began to feel like I
+						was simply pushing buttons. Once I had mastered my
+						responsibilities within the first six months, I sought
+						out ways to challenge myself, trying to automate various tasks but
+						even those challenges were short-lived. The work became
+						routine, and I found myself craving something
+						more — something that required deeper problem-solving and
+						creative thinking.
 					</p>
 					<p>
-						Arcu dui vivamus arcu felis bibendum ut tristique et
-						egestas. Eget gravida cum sociis natoque penatibus. Cras
-						fermentum odio eu feugiat pretium nibh. Proin nibh nisl
-						condimentum id venenatis. Porta nibh venenatis cras sed
-						felis eget velit. Id diam vel quam elementum pulvinar
-						etiam non.
+						I realized I wanted to <b>stop just consuming technology
+						and start creating it</b>. That realization led me to
+						software development, where I gravitated
+						toward JavaScript. The ability to build, break, and
+						refine solutions in a constantly evolving space was
+						exactly what I had been searching for.
 					</p>
 					<p>
-						Ultrices tincidunt arcu non sodales neque sodales ut.
-						Sed enim ut sem viverra aliquet eget sit amet. Lacus
-						luctus accumsan tortor posuere ac ut consequat semper
-						viverra. Viverra accumsan in nisl nisi scelerisque eu
-						ultrices. In massa tempor nec feugiat nisl pretium
-						fusce.
+						Since making the transition, I've thrived in an
+						environment where I get to solve complex problems daily.
+						Whether it's optimizing performance, creating a
+						challenging feature, or collaborating on innovative
+						projects, I truly feel engaged and challenged every day.
+						Working in tech has given me the intellectual
+						stimulation I was missing, and I'm continuously excited
+						to push my skills further.
 					</p>
 				</div>
 			</section>
 			<section>
 				<h2 class="section-title">Education</h2>
-				<div class="content">
-					<p>Corporis voluptates tenetur laudantium.</p>
+				<div class="content education-grid">
+					<div class="education-item">
+						<div class="edu-header">
+							<span class="edu-institution"
+								>Utah Valley University</span
+							>
+							<span class="edu-years">2007 - 2011</span>
+						</div>
+						<p class="edu-degree">
+							Bachelor of Science in Business Management -
+							International Business
+						</p>
+					</div>
+
+					<div class="education-item">
+						<div class="edu-header">
+							<span class="edu-institution">DevMountain</span>
+							<span class="edu-years">2015</span>
+						</div>
+						<p class="edu-degree">Development Certification</p>
+					</div>
 				</div>
 			</section>
 			<section>
 				<h2 class="section-title">Skills</h2>
-				<div class="content">
-					<p>officia unde omnis</p>
+				<div class="content skills-grid">
+					<div class="skill-category">
+						<h3>Frontend Development</h3>
+						<ul>
+							<li>JavaScript</li>
+							<li>TypeScript</li>
+							<li>React</li>
+							<li>Astro</li>
+							<li>Next.js</li>
+							<li>CSS-in-JS</li>
+							<li>Tailwind CSS</li>
+							<li>Sass</li>
+						</ul>
+					</div>
+
+					<div class="skill-category">
+						<h3>Backend & Databases</h3>
+						<ul>
+							<li>Node.js</li>
+							<li>Express.js</li>
+							<li>PostgreSQL</li>
+							<li>MongoDB</li>
+							<li>Firebase</li>
+						</ul>
+					</div>
+
+					<div class="skill-category">
+						<h3>Tools & DevOps</h3>
+						<ul>
+							<li>Git</li>
+							<li>Webpack</li>
+							<li>Vite</li>
+							<li>CI/CD</li>
+							<li>Docker</li>
+						</ul>
+					</div>
+
+					<div class="skill-category">
+						<h3>Other Expertise</h3>
+						<ul>
+							<li>Performance Optimization</li>
+							<li>Accessibility (a11y)</li>
+							<li>UX/UI Design</li>
+						</ul>
+					</div>
 				</div>
 			</section>
 		</main>
@@ -93,7 +158,7 @@ import Hero from "../components/Hero.astro";
 		color: var(--gray-200);
 	}
 
-	.personal-image{
+	.personal-image {
 		margin: 0 auto;
 	}
 
@@ -116,6 +181,108 @@ import Hero from "../components/Hero.astro";
 	.content :global(a:hover),
 	.content :global(a:focus) {
 		text-decoration-color: currentColor;
+	}
+
+	.my-background {
+		p {
+			margin-bottom: 1em;
+		}
+	}
+	.education-grid {
+		display: flex;
+		flex-direction: column;
+		gap: 1.5rem;
+	}
+
+	.education-item {
+		padding: 1rem;
+		border-left: 3px solid var(--accent-regular);
+		background: var(--gray-900);
+		border-radius: 0.5rem;
+		box-shadow: var(--shadow-md);
+	}
+
+	.edu-header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		font-weight: bold;
+		color: var(--gray-0);
+	}
+
+	.edu-institution {
+		font-size: var(--text-lg);
+	}
+
+	.edu-years {
+		font-size: var(--text-md);
+		color: var(--gray-400);
+	}
+
+	.edu-degree {
+		margin-top: 0.5rem;
+		font-size: var(--text-md);
+		color: var(--gray-200);
+	}
+
+	.skills-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+		gap: 1.5rem;
+		margin-top: 1rem;
+	}
+
+	.skill-category {
+		background: var(--gray-900);
+		padding: 1rem;
+		border-radius: 0.5rem;
+		box-shadow: var(--shadow-md);
+		border-left: 4px solid var(--accent-regular);
+		transition: transform 0.2s ease-in-out;
+	}
+
+	.skill-category:hover {
+		transform: translateY(-4px);
+	}
+
+	.skill-category h3 {
+		font-size: var(--text-lg);
+		color: var(--gray-0);
+		margin-bottom: 0.5rem;
+	}
+
+	.skill-category ul {
+		list-style: none;
+		padding: 0;
+	}
+
+	.skill-category li {
+		font-size: var(--text-md);
+		color: var(--gray-200);
+		margin: 0.25rem 0;
+		display: flex;
+		align-items: center;
+	}
+
+	.skill-category li::before {
+		content: "•";
+		color: var(--accent-regular);
+		margin-right: 0.5rem;
+	}
+
+	@media (min-width: 1056px) {
+		.skills-grid {
+			grid-template-columns: repeat(
+				3,
+				1fr
+			); /* Ensures a 3-column layout */
+			justify-content: center;
+		}
+
+		.skill-category:last-child {
+			grid-column: span 3;
+			width: 100%;
+		}
 	}
 
 	@media (min-width: 50em) {
