@@ -2,41 +2,32 @@
 title: Twerk Talia - Dance Fitness
 showcasePriority: 4
 publishDate: 2024-03-02 00:00:00
-img: https://res.cloudinary.com/dqlpq0s6t/image/upload/v1737758238/personal_website_MK2/twerktalia.com_website_mw2v5x.png
-img_alt: Iridescent ripples of a bright blue and pink liquid
+img: https://res.cloudinary.com/dqlpq0s6t/image/upload/v1738263044/personal_website_MK2/twerktalia_website_with_vimeo_htcbri.png
+img_alt: A screenshot of the Twerk Talia website and Vimeo OTT platform
 description: |
-  We designed a whodunnit-style game to introduce Markdown formatting. Suspense — suspicion — syntax!
+  Built and customized the web presence for Twerk Talia, a dance fitness brand, including a landing page and branded Vimeo OTT styling.
 tags:
-  - Html5
+  - HTML5
   - CSS3
-  - Boilerplate
+  - Web Customization
 websiteUrl: https://twerktalia.com/
 githubUrl: https://github.com/lost-boys-technologies/twerk-talia-temp
 ---
 
-## Level-two heading
+## Twerk Talia - Dance Fitness Branding & Web Presence
 
-> Tell me and I forget. Teach me and I remember. Involve me and I learn.
+> “I aim to create an inclusive, body-empowering space for everyone through twerking and dance fitness” – Natalia Howard
 
-![image](https://res.cloudinary.com/dqlpq0s6t/image/upload/v1737759664/personal_website_MK2/twerk_talia_dance_fitness_vimeo_ott_homepage_lqxzq9.png)
+Twerk Talia is a **dance fitness brand** founded by my wife, and I had the opportunity to help shape its **digital presence** by developing a **landing page** and customizing the **Vimeo OTT platform** to match her branding.
 
-Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
+![Twerk Talia Vimeo OTT](https://res.cloudinary.com/dqlpq0s6t/image/upload/v1737759664/personal_website_MK2/twerk_talia_dance_fitness_vimeo_ott_homepage_lqxzq9.png)
 
-Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel quam elementum pulvinar etiam non.
+### What I Built:
+- **Landing Page (twerktalia.com):**  
+  A **quickly deployed**, fully customized website acting as a digital business card. The page contains her **social links, contact info**, and will soon expand to include **schedules, playlists, merch, and events.**
+- **Vimeo OTT UI Customization:**  
+  Customized the styling of **Vimeo OTT’s internal CMS** using **CSS overrides** to create a **branded user experience** for her subscribers.
 
-### Level-three heading
+This project was a fast and efficient setup, allowing **her brand to launch with a cohesive online presence** in just a few hours. Future iterations will expand upon this foundation.
 
-Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra. Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl pretium fusce.
-
-### Level-three heading
-
-Sed pulvinar porttitor mi in ultricies. Etiam non dolor gravida eros pulvinar pellentesque et dictum ex. Proin eu ornare ligula, sed condimentum dui. Vivamus tincidunt tellus mi, sed semper ipsum pharetra a. Suspendisse sollicitudin at sapien nec volutpat. Etiam justo urna, laoreet ac lacus sed, ultricies facilisis dolor. Integer posuere, metus vel viverra gravida, risus elit ornare magna, id feugiat erat risus ullamcorper libero. Proin vitae diam auctor, laoreet lorem vitae, varius tellus.
-
-![image](https://res.cloudinary.com/dqlpq0s6t/image/upload/v1737759662/personal_website_MK2/twerk_talia_dance_fitness_vimeo_ott_browse_mirkxe.png)
-
-Aenean pretium purus augue, ut bibendum erat convallis quis. Cras condimentum quis velit ac mollis. Suspendisse non purus fringilla, venenatis nisl porta, finibus odio. Curabitur aliquet metus faucibus libero interdum euismod. Morbi sed magna nisl. Morbi odio nibh, facilisis vel sapien eu, tempus tincidunt erat. Nullam erat velit, sagittis at purus quis, tristique scelerisque tortor. Pellentesque lacinia tortor id est aliquam viverra. Vestibulum et diam ac ipsum mollis fringilla.
-
-#### Level-four heading
-
-- We noted this
-- And also this other point
+---
