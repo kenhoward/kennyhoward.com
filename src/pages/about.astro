@@ -1,8 +1,13 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 
+// components
 import ContactCTA from "../components/ContactCTA.astro";
 import Hero from "../components/Hero.astro";
+
+// helpers
+import { getSkillsByCategory } from "../utils/skillsHelper";
+const skillsByCategory = getSkillsByCategory();
 ---
 
 <BaseLayout
@@ -29,22 +34,24 @@ import Hero from "../components/Hero.astro";
 				<div class="content my-background">
 					<p>
 						Before transitioning into software development, I worked
-						in finance — a role that, over time, began to feel like I
-						was simply pushing buttons. Once I had mastered my
+						in finance — a role that, over time, began to feel like
+						I was simply pushing buttons. Once I had mastered my
 						responsibilities within the first six months, I sought
-						out ways to challenge myself, trying to automate various tasks but
-						even those challenges were short-lived. The work became
-						routine, and I found myself craving something
-						more — something that required deeper problem-solving and
-						creative thinking.
+						out ways to challenge myself, trying to automate various
+						tasks but even those challenges were short-lived. The
+						work became routine, and I found myself craving
+						something more — something that required deeper
+						problem-solving and creative thinking.
 					</p>
 					<p>
-						I realized I wanted to <b>stop just consuming technology
-						and start creating it</b>. That realization led me to
-						software development, where I gravitated
-						toward JavaScript. The ability to build, break, and
-						refine solutions in a constantly evolving space was
-						exactly what I had been searching for.
+						I realized I wanted to <b
+							>stop just consuming technology and start creating
+							it</b
+						>. That realization led me to software development,
+						where I gravitated toward JavaScript. The ability to
+						build, break, and refine solutions in a constantly
+						evolving space was exactly what I had been searching
+						for.
 					</p>
 					<p>
 						Since making the transition, I've thrived in an
@@ -86,50 +93,25 @@ import Hero from "../components/Hero.astro";
 			<section>
 				<h2 class="section-title">Skills</h2>
 				<div class="content skills-grid">
-					<div class="skill-category">
-						<h3>Frontend Development</h3>
-						<ul>
-							<li>JavaScript</li>
-							<li>TypeScript</li>
-							<li>React</li>
-							<li>Astro</li>
-							<li>Next.js</li>
-							<li>CSS-in-JS</li>
-							<li>Tailwind CSS</li>
-							<li>Sass</li>
-						</ul>
-					</div>
-
-					<div class="skill-category">
-						<h3>Backend & Databases</h3>
-						<ul>
-							<li>Node.js</li>
-							<li>Express.js</li>
-							<li>PostgreSQL</li>
-							<li>MongoDB</li>
-							<li>Firebase</li>
-						</ul>
-					</div>
-
-					<div class="skill-category">
-						<h3>Tools & DevOps</h3>
-						<ul>
-							<li>Git</li>
-							<li>Webpack</li>
-							<li>Vite</li>
-							<li>CI/CD</li>
-							<li>Docker</li>
-						</ul>
-					</div>
-
-					<div class="skill-category">
-						<h3>Other Expertise</h3>
-						<ul>
-							<li>Performance Optimization</li>
-							<li>Accessibility (a11y)</li>
-							<li>UX/UI Design</li>
-						</ul>
-					</div>
+					{
+						Object.entries(skillsByCategory).map(
+							([category, skillList]) => (
+								<div class="skill-category">
+									<h3>{category}</h3>
+									<ul>
+										{skillList.map(({ name, level }) => (
+											<li>
+												{name}{" "}
+												<span class="skill-level">
+													({level})
+												</span>
+											</li>
+										))}
+									</ul>
+								</div>
+							),
+						)
+					}
 				</div>
 			</section>
 		</main>
@@ -227,7 +209,7 @@ import Hero from "../components/Hero.astro";
 
 	.skills-grid {
 		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+		grid-template-columns: 1fr;
 		gap: 1.5rem;
 		margin-top: 1rem;
 	}
@@ -270,18 +252,16 @@ import Hero from "../components/Hero.astro";
 		margin-right: 0.5rem;
 	}
 
-	@media (min-width: 1056px) {
-		.skills-grid {
-			grid-template-columns: repeat(
-				3,
-				1fr
-			); /* Ensures a 3-column layout */
-			justify-content: center;
-		}
+	.skill-level {
+		font-size: var(--text-sm);
+		color: var(--gray-400);
+		margin-left: 0.5rem;
+		font-style: italic;
+	}
 
-		.skill-category:last-child {
-			grid-column: span 3;
-			width: 100%;
+	@media (min-width: 1050px) {
+		.skills-grid {
+			grid-template-columns: repeat(2, 1fr);
 		}
 	}
 
