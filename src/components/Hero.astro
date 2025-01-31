@@ -11,7 +11,7 @@ const { align = "center", tagline, title, subTitle } = Astro.props;
 
 <div class:list={["hero stack gap-4", align]}>
 	<div class="stack gap-2">
-		<h1 class="title">{title}</h1>
+		<h1 class="title">{title} <span class="hand-emoji">👋🏻</span></h1>
 		{subTitle && <h2 class="sub-title">{subTitle}</h2>}
 		{tagline && <p class="tagline">{tagline}</p>}
 	</div>
@@ -59,6 +59,35 @@ const { align = "center", tagline, title, subTitle } = Astro.props;
 
 		.sub-title {
 			font-size: var(--text-4xl);
+		}
+	}
+
+	@keyframes wave-hand {
+		0% {
+			transform: rotate(0deg) translateX(0) translateY(0);
+		}
+		25% {
+			transform: rotate(-10deg) translateX(-3px) translateY(3px);
+		}
+		50% {
+			transform: rotate(10deg) translateX(3px) translateY(-3px);
+		}
+		75% {
+			transform: rotate(-10deg) translateX(-3px) translateY(3px);
+		}
+		100% {
+			transform: rotate(0deg) translateX(0) translateY(0);
+		}
+	}
+
+	.title .hand-emoji {
+		display: inline-block;
+		animation: wave-hand 1s infinite ease-in-out;
+	}
+
+	@media (min-width: 50em) and (max-width: 58em) {
+		.title .hand-emoji {
+			display: none;
 		}
 	}
 </style>
