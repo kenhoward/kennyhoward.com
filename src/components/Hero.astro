@@ -4,14 +4,18 @@ interface Props {
 	subTitle?: string;
 	tagline?: string;
 	align?: "start" | "center";
+	showWave?: boolean;
 }
 
-const { align = "center", tagline, title, subTitle } = Astro.props;
+const { align = "center", tagline, title, subTitle, showWave } = Astro.props;
 ---
 
 <div class:list={["hero stack gap-4", align]}>
 	<div class="stack gap-2">
-		<h1 class="title">{title} <span class="hand-emoji">👋🏻</span></h1>
+		<h1 class="title">
+			{title}
+			{showWave && <span class="hand-emoji">👋🏻</span>}
+		</h1>
 		{subTitle && <h2 class="sub-title">{subTitle}</h2>}
 		{tagline && <p class="tagline">{tagline}</p>}
 	</div>
