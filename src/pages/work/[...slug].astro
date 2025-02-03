@@ -50,7 +50,9 @@ const { Content } = await render(entry);
 								entry.data.websiteUrl && (
 									<CallToAction href={entry.data.websiteUrl}>
 										Website
-										<Icon icon="browser" />
+										<span class="button-icon">
+											<Icon icon="browser" />
+										</span>
 									</CallToAction>
 								)
 							}
@@ -58,7 +60,9 @@ const { Content } = await render(entry);
 								entry.data.githubUrl && (
 									<CallToAction href={entry.data.githubUrl}>
 										GitHub
-										<Icon icon="github-logo" />
+										<span class="button-icon">
+											<Icon icon="github-logo" />
+										</span>
 									</CallToAction>
 								)
 							}
@@ -209,6 +213,16 @@ const { Content } = await render(entry);
 
 		.content :global(blockquote) {
 			font-size: var(--text-2xl);
+		}
+	}
+
+	.button-icon {
+		display: inline-block; /* Default visible */
+	}
+
+	@media (max-width: 50em) {
+		.button-icon {
+			display: none;
 		}
 	}
 </style>
