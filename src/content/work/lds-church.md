@@ -1,5 +1,5 @@
 ---
-title: LDS Church Billboard Dashboard
+title: Billboard Tracker
 showcasePriority: 7
 publishDate: 2024-03-02 00:00:00
 img: https://res.cloudinary.com/dqlpq0s6t/image/upload/v1709329799/personal_website_v1/portfolio/lds_billboard_1_x1ycse.jpg
@@ -17,11 +17,11 @@ tags:
 contractWork: true
 ---
 
-## LDS Church Billboard Dashboard - Contract Work
+## LDS Church Billboard Tracker - Contract Work
 
 During my time at **DevMountain**, I was selected to be part of a **5-person team** contracted to build a **billboard lease tracking dashboard** for **The Church of Jesus Christ of Latter-day Saints**. Over the course of **one month**, we designed and delivered a **fully functional CRUD application** to meet the client's needs.
 
-![Dashboard Screenshot](https://res.cloudinary.com/dqlpq0s6t/image/upload/v1709329797/personal_website_v1/portfolio/lds_billboard_2_jalstv.jpg)
+![billboard details Screenshot](https://res.cloudinary.com/dqlpq0s6t/image/upload/v1709329797/personal_website_v1/portfolio/lds_billboard_2_jalstv.jpg)
 *A screenshot from a Billboard details modal where the user could upload or edit a leased billboard*
 
 ### **Project Overview**

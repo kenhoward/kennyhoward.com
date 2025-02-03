@@ -29,6 +29,9 @@ This app serves as the go-to resource for our league, offering real-time data in
 #### **League Management**
 The league management module helps to maintain all crucial data and interactions within the league, ensuring that no information is lost over time. Key functionalities include:
 
+![image](https://res.cloudinary.com/dqlpq0s6t/image/upload/v1709329795/personal_website_v1/portfolio/create_bet_option_heoveu.jpg)
+*Create Bet Option - A screenshot of the betting feature*
+
 - **Member Profiles:**  
   View bio, contact details, and historical rosters.
 - **League Constitution & Rules:**  
@@ -40,8 +43,8 @@ The league management module helps to maintain all crucial data and interactions
 - **Achievements Section:**  
   Showcasing milestones like "Most Waiver Acquisitions" or "Highest Weekly Score."
 
-![image](https://res.cloudinary.com/dqlpq0s6t/image/upload/v1709329795/personal_website_v1/portfolio/create_bet_option_heoveu.jpg)
-*Create Bet Option - A screenshot of the betting feature*
+![screenshot of bet page](https://res.cloudinary.com/dqlpq0s6t/image/upload/v1738268089/personal_website_MK2/garbage_time_fantasy_bet_wireframe_dqwon8.jpg)
+*Screenshot of the UX wireframe for the bets page*
 
 #### **Draft Day Assistance**
 The draft tracker module provides tools to help make smarter draft decisions, with features such as:
@@ -56,6 +59,9 @@ The draft tracker module provides tools to help make smarter draft decisions, wi
   Deep statistical insights that go beyond basic stats of any given source (ESPN, Yahoo Sports, Sleeper, etc).
 - **Enhanced Predictions:**  
   Incorporating factors like historical data on player health, team dynamic, and more.
+
+![screenshot of user profile](https://res.cloudinary.com/dqlpq0s6t/image/upload/v1738268087/personal_website_MK2/garbage_time_fantasy_user_profile_wireframe_fwzq6w.jpg)
+*My initial layout for how I would like the user profile to look*
 
 #### **Technologies Used**
 

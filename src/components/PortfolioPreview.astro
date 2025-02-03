@@ -54,6 +54,7 @@ const { data, id } = Astro.props.project;
 	/* New styling for contract-work, mimicking .title but in the top-right */
 	.contract-work,
 	.current-work {
+		display: none;
 		grid-area: 1 / 2 / 2 / 3;
 		justify-self: end;
 		z-index: 1;
@@ -71,6 +72,12 @@ const { data, id } = Astro.props.project;
 		object-fit: cover;
 	}
 
+	@media (min-width: 60em) {
+		.contract-work,
+		.current-work {
+			display: block;
+		}
+	}
 	@media (min-width: 50em) {
 		.card {
 			height: 22rem;
