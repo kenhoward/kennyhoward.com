@@ -9,7 +9,6 @@ description: |
 tags:
   - HTML5
   - CSS3
-  - Astro
   - JavaScript
 websiteUrl: https://www.kennyhoward.dev/
 githubUrl: https://github.com/kenhoward/codename-lean

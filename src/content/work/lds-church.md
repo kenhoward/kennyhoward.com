@@ -1,5 +1,5 @@
 ---
-title: LDS Church (Contract Work)
+title: LDS Church
 showcasePriority: 7
 publishDate: 2024-03-02 00:00:00
 img: https://res.cloudinary.com/dqlpq0s6t/image/upload/v1709329799/personal_website_v1/portfolio/lds_billboard_1_x1ycse.jpg
@@ -12,6 +12,7 @@ tags:
   - Express
   - MongoDB
   - Bootstrap
+contractWork: true
 ---
 
 ## Level-two heading

@@ -15,6 +15,7 @@ export const collections = {
 			showcasePriority: z.number(),
 			websiteUrl: z.string().optional(),
 			githubUrl: z.string().optional(),
+			contractWork: z.boolean().optional(),
 		}),
 	}),
 };

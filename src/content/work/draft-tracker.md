@@ -3,37 +3,56 @@ title: Auction Draft Tracker
 showcasePriority: 6
 publishDate: 2024-03-02 00:00:00
 img: https://res.cloudinary.com/dqlpq0s6t/image/upload/v1709329802/personal_website_v1/portfolio/draft_tracker_1_xsecey.jpg
-img_alt: Iridescent ripples of a bright blue and pink liquid
+img_alt: Screenshot of the Auction Draft Tracker app
 description: |
-  We designed a whodunnit-style game to introduce Markdown formatting. Suspense — suspicion — syntax!
+  A dynamic fantasy football draft tool designed to track player targets, manage budgets, and optimize draft selections.
 tags:
-  - Angular
+  - AngularJS
   - CSS3
-  - Boilerplate
+  - Express
+  - Bootstrap
+  - Gulp
 githubUrl: https://github.com/kenhoward/benched-sports-dos
 ---
 
-## Level-two heading
+## Auction Draft Tracker - Fantasy Football Draft Assistance
 
-> Tell me and I forget. Teach me and I remember. Involve me and I learn.
+> “The road to Easy Street goes through the sewer” – John Madden
 
-Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
+The **Auction Draft Tracker** was one of the first apps I built, and I was proud of how it was structured. It was originally developed to help me **track and manage my fantasy football draft targets**, ensuring I had an organized view of player selections and remaining budget in an auction-style draft.
 
-Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel quam elementum pulvinar etiam non.
+While the initial version was built to serve my own needs, this tool laid the groundwork for an enhanced version that will be integrated into **[Garbage Time Fantasy](/work/garbage-time-fantasy)** in the future.
 
-### Level-three heading
+![Draft Day screenshot](https://res.cloudinary.com/dqlpq0s6t/image/upload/v1709329796/personal_website_v1/portfolio/draft_tracker_2_crc1co.jpg)
+*A view of how a roster would be completed with a handful of useful features*
 
-![image](https://res.cloudinary.com/dqlpq0s6t/image/upload/v1709329796/personal_website_v1/portfolio/draft_tracker_2_crc1co.jpg)
+### **Project Overview**
+Instead of **manually tracking** fantasy football picks on paper, I wanted a **dynamic solution** that could:
+- **Display targeted players** and track selections in real time.
+- **Manage budget calculations** based on selected players.
+- **Provide draft recommendations** as selections progressed.
 
-Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra. Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl pretium fusce.
+After **testing the initial build** in mock drafts, I quickly realized my approach had fundamental flaws. I had about **a week before my league’s actual draft**, so I pivoted, **refactored the logic**, and made the app **far more intuitive and effective** within that short timeframe. This was a major learning experience, reinforcing the **importance of testing and adaptability**.
 
-### Level-three heading
+### **Wireframing & UX Planning**
+For all my projects, I start with **wireframes** to map out functionality and UI structure before diving into development. Below is the wireframe that closely represents the **final version of the app**.
 
-Sed pulvinar porttitor mi in ultricies. Etiam non dolor gravida eros pulvinar pellentesque et dictum ex. Proin eu ornare ligula, sed condimentum dui. Vivamus tincidunt tellus mi, sed semper ipsum pharetra a. Suspendisse sollicitudin at sapien nec volutpat. Etiam justo urna, laoreet ac lacus sed, ultricies facilisis dolor. Integer posuere, metus vel viverra gravida, risus elit ornare magna, id feugiat erat risus ullamcorper libero. Proin vitae diam auctor, laoreet lorem vitae, varius tellus.
+![Wireframe](https://res.cloudinary.com/dqlpq0s6t/image/upload/v1738268088/personal_website_MK2/autopicker_draft_day_wireframe_m_sapqm1.jpg)
+*An example wireframe that I used to help shape features in this app*
 
-Aenean pretium purus augue, ut bibendum erat convallis quis. Cras condimentum quis velit ac mollis. Suspendisse non purus fringilla, venenatis nisl porta, finibus odio. Curabitur aliquet metus faucibus libero interdum euismod. Morbi sed magna nisl. Morbi odio nibh, facilisis vel sapien eu, tempus tincidunt erat. Nullam erat velit, sagittis at purus quis, tristique scelerisque tortor. Pellentesque lacinia tortor id est aliquam viverra. Vestibulum et diam ac ipsum mollis fringilla.
+### **Technology Stack**
+- **AngularJS**: Built the interactive front-end with dynamic UI updates.
+- **Express**: Served as the backend framework.
+- **Bootstrap**: Provided a responsive UI foundation.
+- **Gulp**: Automated build tasks and optimized performance.
+- **CSS3**: Custom styles and layouts.
 
-#### Level-four heading
+### **Future Integration into Garbage Time Fantasy**
+This project provided **valuable insights into draft optimization**, and its core functionalities will be expanded and refined in **Garbage Time Fantasy**. The next iteration will:
+- Include **real-time draft suggestions** based on previously selected players.
+- Offer **enhanced analytics** for player recommendations.
+- Support **team-building strategies** throughout the draft.
 
-- We noted this
-- And also this other point
+---
+
+This project was a great learning experience, reinforcing the **importance of testing, adaptability, and UI planning** in building dynamic applications.

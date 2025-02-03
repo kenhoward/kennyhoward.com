@@ -1,8 +1,8 @@
 ---
-import type { CollectionEntry } from 'astro:content';
+import type { CollectionEntry } from "astro:content";
 
 interface Props {
-	project: CollectionEntry<'work'>;
+	project: CollectionEntry<"work">;
 }
 
 const { data, id } = Astro.props.project;
@@ -10,12 +10,13 @@ const { data, id } = Astro.props.project;
 
 <a class="card" href={`/work/${id}`}>
 	<span class="title">{data.title}</span>
-	<!-- TODO: create a pill option for contract work  -->
-	<img src={data.img} alt={data.img_alt || ''} loading="lazy" decoding="async" />
+	{data.contractWork && <span class="contract-work">Contract Work</span>}
+	<img src={data.img} alt={data.img_alt || ""} loading="lazy" decoding="async" />
 </a>
 
 <style>
 	.card {
+		position: relative;
 		display: grid;
 		grid-template: auto 1fr / auto 1fr;
 		height: 11rem;
@@ -43,6 +44,20 @@ const { data, id } = Astro.props.project;
 		background: var(--gray-800);
 		color: var(--gray-200);
 		border-radius: 0.375rem;
+	}
+
+	/* refactor to use grid */
+	.contract-work {
+		position: absolute;
+		top: 0.5rem;
+		right: 0.5rem;
+		z-index: 2;
+		padding: 0.5rem 1rem;
+		background: var(--accent-regular);
+		color: var(--gray-50);
+		font-size: var(--text-md);
+		font-weight: 600;
+		border-radius: 0.975rem;
 	}
 
 	img {
