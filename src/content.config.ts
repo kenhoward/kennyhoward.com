@@ -16,6 +16,7 @@ export const collections = {
 			websiteUrl: z.string().optional(),
 			githubUrl: z.string().optional(),
 			contractWork: z.boolean().optional(),
+			currentWork: z.boolean().optional(),
 		}),
 	}),
 };

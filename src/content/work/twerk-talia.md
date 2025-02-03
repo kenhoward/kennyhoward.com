@@ -9,6 +9,7 @@ description: |
 tags:
   - HTML5
   - CSS3
+  - JavaScript
   - Web Customization
 websiteUrl: https://twerktalia.com/
 githubUrl: https://github.com/lost-boys-technologies/twerk-talia-temp

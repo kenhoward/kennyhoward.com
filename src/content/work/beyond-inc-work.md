@@ -1,5 +1,5 @@
 ---
-title: Beyond, Inc. (Work Contributions)
+title: Beyond, Inc.
 showcasePriority: 3
 publishDate: 2024-03-02 00:00:00
 img: https://res.cloudinary.com/dqlpq0s6t/image/upload/v1737762394/personal_website_MK2/work/byon_work_homepage_t62nmo.png
@@ -20,6 +20,7 @@ tags:
   - Node.js
   - Express
 websiteUrl: https://www.bedbathandbeyond.com/
+currentWork: true
 ---
 
 ## A Decade of Innovation at Beyond, Inc.
@@ -34,6 +35,7 @@ Beyond, Inc. has always been a company that embraces **cutting-edge technology**
 One of my earliest contributions at Beyond, Inc. was **migrating our codebase from jQuery and Handlebars to React** back in 2016. This was a major turning point, enabling faster development cycles, reusable components, and a more scalable front-end architecture.
 
 ![Search Page](https://res.cloudinary.com/dqlpq0s6t/image/upload/v1737762392/personal_website_MK2/work/byon_work_everything_seen_iz_mine_b0qukq.png)
+*In this screenshot, I have built or maintain everything you can see*
 
 Above is a **screenshot of a search page** on our website that includes the **header**. **Every element seen in this screenshot is something that I have directly worked on, helped build, and continue to maintain.** From the search functionality to the dynamic UI components, this page represents countless hours of development, optimizations, and A/B testing.
 

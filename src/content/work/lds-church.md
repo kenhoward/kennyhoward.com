@@ -1,41 +1,50 @@
 ---
-title: LDS Church
+title: LDS Church Billboard Dashboard
 showcasePriority: 7
 publishDate: 2024-03-02 00:00:00
 img: https://res.cloudinary.com/dqlpq0s6t/image/upload/v1709329799/personal_website_v1/portfolio/lds_billboard_1_x1ycse.jpg
-img_alt: Iridescent ripples of a bright blue and pink liquid
+img_alt: Screenshot of the LDS Church Billboard Dashboard
 description: |
-  MEAN Stack
+  A MEAN Stack dashboard application built to track billboard leases, integrating Google Maps API for location visualization.
 tags:
   - Angular
-  - NodeJS
+  - Node.js
   - Express
   - MongoDB
   - Bootstrap
+  - OAuth 2.0
+  - Google Maps API
 contractWork: true
 ---
 
-## Level-two heading
+## LDS Church Billboard Dashboard - Contract Work
 
-> Tell me and I forget. Teach me and I remember. Involve me and I learn.
+During my time at **DevMountain**, I was selected to be part of a **5-person team** contracted to build a **billboard lease tracking dashboard** for **The Church of Jesus Christ of Latter-day Saints**. Over the course of **one month**, we designed and delivered a **fully functional CRUD application** to meet the client's needs.
 
-Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
+![Dashboard Screenshot](https://res.cloudinary.com/dqlpq0s6t/image/upload/v1709329797/personal_website_v1/portfolio/lds_billboard_2_jalstv.jpg)
+*A screenshot from a Billboard details modal where the user could upload or edit a leased billboard*
 
-Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel quam elementum pulvinar etiam non.
+### **Project Overview**
+The objective was to **create an internal dashboard** where administrators could:
+- **Filter and search through active billboard leases**.
+- **View lease details**, including cost, duration, and lessor.
+- **See billboard locations on an interactive Google Map**.
+- **Upload and manage billboard images** for easy reference.
+- **Securely access the dashboard with OAuth 2.0 authentication**.
 
-### Level-three heading
+### **Technology Stack**
+The project was developed using the **MEAN stack**, leveraging:
+- **MongoDB** – Stored lease data, billboard details, and images.
+- **Express.js & Node.js** – Provided backend services and API endpoints.
+- **Angular** – Created a responsive and interactive front-end dashboard.
+- **Google Maps API** – Integrated to visualize billboard locations.
+- **Bootstrap** – Styled the UI for a clean and professional appearance.
+- **OAuth 2.0** – Secured access to ensure only authorized users could modify data.
 
-![image](https://res.cloudinary.com/dqlpq0s6t/image/upload/v1709329797/personal_website_v1/portfolio/lds_billboard_2_jalstv.jpg)
+### **Challenges & Solutions**
+One of the biggest challenges was ensuring **data accuracy and usability**. We needed to implement robust filtering options, so users could quickly find relevant lease details. Another key aspect was integrating **Google Maps API**, which required optimizing data retrieval to **prevent performance bottlenecks**.
 
-Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra. Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl pretium fusce.
+--- 
 
-### Level-three heading
+This was one of my earliest experiences working in a **team-based contract environment**, and it provided valuable insights into **client expectations, full-stack development, and delivering a functional product on a deadline**. The lessons learned from this project influenced my future work, particularly in building **data-driven applications**.
 
-Sed pulvinar porttitor mi in ultricies. Etiam non dolor gravida eros pulvinar pellentesque et dictum ex. Proin eu ornare ligula, sed condimentum dui. Vivamus tincidunt tellus mi, sed semper ipsum pharetra a. Suspendisse sollicitudin at sapien nec volutpat. Etiam justo urna, laoreet ac lacus sed, ultricies facilisis dolor. Integer posuere, metus vel viverra gravida, risus elit ornare magna, id feugiat erat risus ullamcorper libero. Proin vitae diam auctor, laoreet lorem vitae, varius tellus.
-
-Aenean pretium purus augue, ut bibendum erat convallis quis. Cras condimentum quis velit ac mollis. Suspendisse non purus fringilla, venenatis nisl porta, finibus odio. Curabitur aliquet metus faucibus libero interdum euismod. Morbi sed magna nisl. Morbi odio nibh, facilisis vel sapien eu, tempus tincidunt erat. Nullam erat velit, sagittis at purus quis, tristique scelerisque tortor. Pellentesque lacinia tortor id est aliquam viverra. Vestibulum et diam ac ipsum mollis fringilla.
-
-#### Level-four heading
-
-- We noted this
-- And also this other point
