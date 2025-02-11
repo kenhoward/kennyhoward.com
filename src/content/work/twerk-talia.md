@@ -29,6 +29,6 @@ Twerk Talia is a **dance fitness brand** founded by my wife, and I had the oppor
 - **Vimeo OTT UI Customization:**  
   Customized the styling of **Vimeo OTT’s internal CMS** using **CSS overrides** to create a **branded user experience** for her subscribers.
 
----a
+---
 
 This project was a fast and efficient setup, allowing **her brand to launch with a cohesive online presence** in just a few hours. Future iterations will expand upon this foundation.
