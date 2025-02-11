@@ -43,7 +43,7 @@ export const skills = [
 
     // Other Expertise
     { category: "Other Expertise", name: "A/B Testing", level: "Expert" },
-    { category: "Other Expertise", name: "Coachable", level: "Expert" },
+    { category: "Other Expertise", name: "Collaborative", level: "Expert" },
     { category: "Other Expertise", name: "Slack", level: "Expert" },
     { category: "Other Expertise", name: "Trello", level: "Expert" },
     { category: "Other Expertise", name: "Jira", level: "Advanced" },
