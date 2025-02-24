@@ -1,6 +1,6 @@
 ---
 title: Business Card 
-showcasePriority: 5
+showcasePriority: 6
 publishDate: 2024-03-02 00:00:00
 img: https://res.cloudinary.com/dqlpq0s6t/image/upload/v1737761316/personal_website_MK2/business_card_website_hdgcwq.png
 img_alt: Screenshot of my personal quick-links site

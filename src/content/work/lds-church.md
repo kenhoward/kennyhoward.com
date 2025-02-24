@@ -1,6 +1,6 @@
 ---
 title: Billboard Tracker
-showcasePriority: 7
+showcasePriority: 8
 publishDate: 2024-03-02 00:00:00
 img: https://res.cloudinary.com/dqlpq0s6t/image/upload/v1709329799/personal_website_v1/portfolio/lds_billboard_1_x1ycse.jpg
 img_alt: Screenshot of the LDS Church Billboard Dashboard

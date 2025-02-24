@@ -1,6 +1,6 @@
 ---
 title: Twerk Talia - Dance Fitness
-showcasePriority: 4
+showcasePriority: 5
 publishDate: 2024-03-02 00:00:00
 img: https://res.cloudinary.com/dqlpq0s6t/image/upload/v1738263044/personal_website_MK2/twerktalia_website_with_vimeo_htcbri.png
 img_alt: A screenshot of the Twerk Talia website and Vimeo OTT platform
