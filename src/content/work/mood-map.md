@@ -11,7 +11,7 @@ tags:
   - Tailwind
   - Firebase
   - SweetAlert2
-websiteUrl: https://cms.kennyhoward.dev/
+websiteUrl: https://mood-map.kennyhoward.dev/
 githubUrl: https://github.com/kenhoward/mood-map
 ---
 
