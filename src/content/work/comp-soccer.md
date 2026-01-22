@@ -11,7 +11,7 @@ tags:
   - Next.js
   - TypeScript
   - Sass
-websiteUrl: https://copper-mtn-u13.vercel.app/
+websiteUrl: https://cms.kennyhoward.dev/
 githubUrl: https://github.com/kenhoward/copper-mtn-u13
 ---
 
