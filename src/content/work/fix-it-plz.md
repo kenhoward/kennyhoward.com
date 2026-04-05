@@ -20,7 +20,7 @@ portraitImg: true
 
 ## Fix It Plz - A Household Request System
 
-> "The best way to predict the future is to create it." – Peter Drucker
+> "A place for everything, and everything in its place."
 
 **Fix It Plz** is a mobile-first web app that brings the convenience of an IT ticketing system into the home. Family members can submit requests like replacing a lightbulb, installing a shelf, or fixing a leaky faucet, and an admin can triage, track, and resolve them through a protected portal without digging through texts or forgotten reminders.
 
