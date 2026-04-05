@@ -1,6 +1,6 @@
 ---
 title: Copper Mountain Soccer
-showcasePriority: 2
+showcasePriority: 3
 publishDate: 2024-03-02 00:00:00
 img: https://res.cloudinary.com/dqlpq0s6t/image/upload/v1740423643/u13-soccer/copper_mountain_soccer_homepage_q62enl.png
 img_alt: Screenshot of Copper Mountain U13 Soccer Team website

@@ -1,6 +1,6 @@
 ---
 title: Beyond, Inc.
-showcasePriority: 3
+showcasePriority: 4
 publishDate: 2024-03-02 00:00:00
 img: https://res.cloudinary.com/dqlpq0s6t/image/upload/v1737762394/personal_website_MK2/work/byon_work_homepage_t62nmo.png
 img_alt: Screenshot of Beyond, Inc. work contributions

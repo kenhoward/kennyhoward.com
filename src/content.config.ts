@@ -17,6 +17,7 @@ export const collections = {
 			githubUrl: z.string().optional(),
 			contractWork: z.boolean().optional(),
 			currentWork: z.boolean().optional(),
+			portraitImg: z.boolean().optional(),
 		}),
 	}),
 };
