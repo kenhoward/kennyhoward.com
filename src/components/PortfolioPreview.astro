@@ -17,6 +17,7 @@ const { data, id } = Astro.props.project;
 		alt={data.img_alt || ""}
 		loading="lazy"
 		decoding="async"
+		class:list={[{ portrait: data.portraitImg }]}
 	/>
 </a>
 
@@ -70,6 +71,10 @@ const { data, id } = Astro.props.project;
 		width: 100%;
 		height: 100%;
 		object-fit: cover;
+	}
+
+	img.portrait {
+		object-position: top;
 	}
 
 	@media (min-width: 60em) {

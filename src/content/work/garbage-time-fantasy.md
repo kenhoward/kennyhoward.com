@@ -1,6 +1,6 @@
 ---
 title: Garbage Time Fantasy
-showcasePriority: 4
+showcasePriority: 5
 publishDate: 2024-03-02 00:00:00
 img: https://res.cloudinary.com/dqlpq0s6t/image/upload/v1709329795/personal_website_v1/portfolio/all_bets_gfsdzt.jpg
 img_alt: A screenshot of the bets page of the Garbage Time Fantasy app

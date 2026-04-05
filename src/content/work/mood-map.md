@@ -1,6 +1,6 @@
 ---
 title: Mood Map
-showcasePriority: 1
+showcasePriority: 2
 publishDate: 2025-01-23 00:00:00
 img: https://res.cloudinary.com/dqlpq0s6t/image/upload/v1737758433/personal_website_MK2/mood_map_website_homepage.png
 img_alt: A screenshot of the landing page of Mood Map
