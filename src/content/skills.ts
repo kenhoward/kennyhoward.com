@@ -12,10 +12,10 @@ export const skills = [
     { category: "Frontend Development", name: "Material UI", level: "Advanced" },
     { category: "Frontend Development", name: "Prompt Engineering", level: "Advanced" },
     { category: "Frontend Development", name: "Astro", level: "Intermediate" },
-    { category: "Frontend Development", name: "Next.js", level: "Intermediate" },
+    { category: "Frontend Development", name: "Next.js", level: "Advanced" },
     { category: "Frontend Development", name: "Tailwind CSS", level: "Intermediate" },
     { category: "Frontend Development", name: "Web Vitals", level: "Intermediate" },
-    { category: "Frontend Development", name: "Angular", level: "Novice" },
+    { category: "Frontend Development", name: "Angular", level: "Intermediate" },
     { category: "Frontend Development", name: "React Native", level: "Novice" },
     { category: "Frontend Development", name: "Storybook", level: "Novice" },
 
@@ -33,7 +33,7 @@ export const skills = [
     { category: "Tools & DevOps", name: "Playwright - E2E Testing", level: "Novice" },
 
     // Backend & Databases
-    { category: "Backend & Databases", name: "Node.js", level: "Intermediate" },
+    { category: "Backend & Databases", name: "Node.js", level: "Advanced" },
     { category: "Backend & Databases", name: "OAuth", level: "Intermediate" },
     { category: "Backend & Databases", name: "Firebase/Firestore", level: "Advanced" },
     { category: "Backend & Databases", name: "New Relic Query Language", level: "Advanced" },
